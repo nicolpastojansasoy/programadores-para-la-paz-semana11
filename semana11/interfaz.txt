@@ -1,0 +1,8 @@
+Descripción de la Interfaz Básica de la Plataforma:
+
+1. Formulario para crear una causa: Una sección dedicada con campos de texto claros para introducir el título de la iniciativa comunitaria, un cuadro amplio para detallar la descripción de la necesidad y un selector de fecha. Incluye un botón visible que dice "Publicar Causa".
+2. Vista de causas disponibles: Un tablero o panel principal que renderiza de manera ordenada todas las causas guardadas en la base de datos en tarjetas independientes y legibles.
+3. Botón para apoyar una causa: Cada tarjeta de causa posee un botón interactivo de respaldo con la leyenda "Apoyar esta Iniciativa".
+4. Contador de apoyos: Junto al botón de apoyo, un indicador numérico dinámico muestra en tiempo real cuántas voluntades se han sumado a dicha causa.
+
+Principios de Diseño: La interfaz se presenta de forma minimalista, accesible y ágil, omitiendo cualquier despliegue de datos sensibles de los creadores para resguardar la confidencialidad.

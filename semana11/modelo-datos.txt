@@ -1,0 +1,16 @@
+Entidad: Causa
+Campos principales:
+- id (Numérico, Clave Primaria)
+- titulo (Texto)
+- descripcion (Texto)
+- lider_comunitario (Texto)
+- fecha_creacion (Fecha)
+Propósito: Almacenar de manera organizada las problemáticas, iniciativas o proyectos comunitarios propuestos por los vecinos para que sean visibles de forma pública en la plataforma.
+
+Entidad: Apoyo
+Campos principales:
+- id (Numérico, Clave Primaria)
+- causa_id (Numérico, Clave Foránea vinculada a Causa)
+- usuario_anonimo_id (Texto/Código único de seguimiento)
+- fecha_apoyo (Fecha)
+Propósito: Registrar de forma segura y confidencial cada respaldo digital que recibe una causa, permitiendo llevar una trazabilidad exacta del interés comunitario y medir el impacto participativo sin exponer datos personales directos.
